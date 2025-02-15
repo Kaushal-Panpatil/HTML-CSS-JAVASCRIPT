@@ -1,0 +1,258 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+wrapper {
+    width: 100px;
+    height: 800px;
+}
+
+.mobile{
+    height: 600px;
+    width: 300px;
+    margin: 30px auto;
+    border: 7px solid;
+    border-bottom: 12px solid; 
+    border-top: 12px solid;
+    background-color: white;
+    border-radius: 20px;
+    overflow: hidden;
+}
+
+.camera{
+    font-size: 30px;
+    margin-left: 45%;
+    margin-top: -20px;
+}
+
+.top1 p{
+    font-size: 11px;
+    float: left;
+    margin-left: 7px;
+    margin-top: -8px;
+}
+
+.sim{
+    font-size: 13px;
+    float: right;
+    margin-right: 13px;
+    margin-top: -8px;
+}
+
+
+
+.username{
+    font-size: 20px;
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-between;
+    margin-left: 10px;
+}
+
+.username1 p {
+    display: inline-block;
+    margin-right: 15px;
+}
+
+.username1{
+    width: 35%;
+    display: flex;
+    justify-content: end;
+    margin-right: 2px;
+}
+a{
+    color: black;
+}
+
+/** DP **/
+
+.dp{
+    height: 80px;
+    width: 80px;
+    border: 1px solid black;
+    border-radius: 50%;
+    display: flex;
+    margin-top: 25px;
+    margin-left: 8px;
+    background-image: url("my_image.jpg");
+    background-size: cover;
+}
+
+.posts{
+    font-size: 23px;
+    display: flex;
+    gap: 33px;
+    margin-left: 105px;
+    margin-top: 15px;
+}
+
+.posts1{
+    font-size: 12px;
+    display: flex;
+    gap: 25px;
+    margin-left: 115px;
+    margin-top: -36px;
+}
+
+.edit{
+    width: 85%;
+    height: 20px;
+    border: 1px solid;
+    margin-top: 45px;
+    margin-left: 8px;
+    border-radius: 3px;
+}
+
+.edit:hover {
+    background-color: skyblue;
+}
+
+.edit h5 {
+    margin-left: 39%;
+    margin-top: 3px;
+    cursor: pointer;
+}
+
+.down{
+    float: right;
+    width: 20px;
+    height: 20px;
+    border: 1px solid;
+    border-radius: 3px;
+    margin-right: 8px;
+    margin-top: -22px;    
+    cursor: pointer;
+}
+
+.down i{
+    margin: 3px;
+}
+
+.highlight{
+    float: left;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    margin-top: 15px;
+    margin-left: 15px;
+    border: 2px solid gray;
+}.highlight img{
+    width: 45px;
+    height: 45px;
+    border-radius: 50%;
+    margin: 2.5px;
+    cursor: pointer;
+}
+
+.highlight h6{
+    font-size: 15px;
+    font-weight: 800;
+    text-align: center;
+}
+
+.menubuttons{
+    float: left;
+    margin-top: 50px;
+    margin-left: 40px;
+    letter-spacing: 38px;
+    cursor: pointer;
+}
+
+.new-post{
+    float: left;
+    margin: 1.5px;
+    border: 1px solid gray;
+    cursor: pointer;
+}
+
+.new-post img{
+    width: 95px;
+    height: 95px;
+    overflow: hidden;
+}
+
+.footer{
+    position: relative;
+    width: 350px;
+    height: 30px;
+    margin-top: 330px;
+    border-bottom: 1ps solid gray;
+    background-color: transparent;
+    cursor: pointer;
+}
+
+.footer i{
+    float: left;
+    font-size: 1.3em;
+    margin-top: 8px;
+    margin-right: 10px;
+    padding: 0px 14px;
+
+}
+
+.account {
+    width: 30px;
+    height: 30px;
+    border: 1px solid;
+    border-radius: 50%;
+    float: right;
+    margin-right: 20px;
+    margin-top: -10px;
+    background-image: url("my_image.jpg");
+    background-size: cover;
+}
+
+/**Highlight-section**/
+/*
+.highlight{
+    height: 55px;
+    width: 55px;
+    border: 1px solid;
+    border-radius: 50%;
+    margin-top: 10px;
+    margin-left: 10px;
+    background-image: url("my_image.jpg");
+    background-size: cover;
+}
+
+.highlight2{
+    height: 55px;
+    width: 55px;
+    border: 1px solid;
+    border-radius: 50%;
+    /*margin-top: 0.01px;*//*
+    margin-left: 75px;
+    background-image: url("my_image.jpg");
+    background-size: cover;
+}
+
+.highlight3{
+    height: 55px;
+    width: 55px;
+    border: 1px solid;
+    border-radius: 50%;
+    /*margin-top: 0.01px;*//*
+    margin-left: 75px;
+    background-image: url("my_image.jpg");
+    background-size: cover;
+}*/
+
+
+
+/*
+.button{
+    margin-top: 50px;
+    padding: 3px 24px;
+    font-size: 20px;
+    border-radius: 4px;
+}
+
+/*
+.buttons{
+    margin-top: 567px;
+    display: flex;
+    
+    justify-content: space-evenly;
+    align-items: center;
+}*/
